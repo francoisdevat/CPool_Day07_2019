@@ -11,7 +11,7 @@ int my_compute_power_it(int nb, int p)
     i = 1;
     int y;
     y = nb;
-    
+
     if (p < 0) {
         return (0);
     }
@@ -22,5 +22,5 @@ int my_compute_power_it(int nb, int p)
         y  *= nb;
         i++;
     }
-    return (nb); 
+    return (nb);
 }

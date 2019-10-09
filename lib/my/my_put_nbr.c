@@ -7,5 +7,5 @@
 
 int my_pu_nbr(int nb)
 {
-    return(0);
+    return (0);
 }

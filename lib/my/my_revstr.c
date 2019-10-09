@@ -16,7 +16,6 @@ char *my_revstr(char *str)
         i++;
         stringtall++;
     }
-    
     int middle = stringtall/2;
     while (j < middle) {
 

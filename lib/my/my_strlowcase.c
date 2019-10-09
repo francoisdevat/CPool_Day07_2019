@@ -4,6 +4,7 @@
 ** File description:
 ** vitevitevite
 */
+
 char *my_strlowcase(char *str)
 {
     int k = 0;
@@ -15,6 +16,4 @@ char *my_strlowcase(char *str)
         k++;
     }
     return (str);
-}        
-        
-    
+}

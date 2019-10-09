@@ -7,6 +7,6 @@
 
 int my_sttr_islower(char const *str)
 {
-    return(0);
+    return (0);
 }
 

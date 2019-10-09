@@ -7,5 +7,5 @@
 
 int my_isneg(int nb)
 {
-    return(0);
+    return (0);
 }

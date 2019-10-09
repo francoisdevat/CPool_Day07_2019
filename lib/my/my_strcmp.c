@@ -1,8 +1,8 @@
 /*
 ** EPITECH PROJECT, 2019
-** moncomparateur
+** coucou
 ** File description:
-** 
+** jsuis obligé
 */
 
 int my_strcmp(char const *s1, char const *s2)

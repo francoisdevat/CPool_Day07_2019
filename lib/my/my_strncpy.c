@@ -5,9 +5,7 @@
 ** tout est dans le titre
 */
 
-
 char *my_strncpy(char *dest, char const *src, int n)
-                                    
 {
     int k;
 
@@ -21,4 +19,3 @@ char *my_strncpy(char *dest, char const *src, int n)
     }
     return (dest);
 }
-

@@ -1,11 +1,11 @@
 /*
 ** EPITECH PROJECT, 2019
-** lol
+** ol
 ** File description:
-** loliol
+** dddd
 */
 
-char *my_strncat(char *dest,char const *src, int nb)
+char *my_strncat(char *dest, char const *src, int nb)
 {
     return (0);
 }

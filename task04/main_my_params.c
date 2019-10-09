@@ -6,11 +6,12 @@
 */
 
 void my_putchar(char c);
-int my_putstr(char const* c);
+
+int my_putstr(char const *c);
 
 int main(int argc, char **argv)
 {
-    int i =0;
+    int i = 0;
 
     while (i <= argc - 1) {
         my_putstr(argv[i]);
@@ -18,4 +19,3 @@ int main(int argc, char **argv)
         i++;
     }
 }
-        

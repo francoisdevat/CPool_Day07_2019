@@ -5,7 +5,7 @@
 ** lolil
 */
 
-void my_sort_in_array(int *tab,int *size)
+void my_sort_in_array(int *tab, int *size)
 {
     return;
 }
