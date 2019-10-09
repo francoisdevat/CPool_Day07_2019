@@ -5,17 +5,19 @@
 ** je sais pas
 */
 
-char*my_strcat(char *dest, char *src)
-{
-    int len;
-    int i;
+int my_strlen(char const *str);
 
-    len = my_strlen(dest);
-    i = 0;
-    while (src[i] =! '\0') {
-        dest[len + i] = src[i];
+char *my_strcat(char *dest, char const *src)
+{
+    int lon;
+    int i = 0;
+
+    int lon1 = my_strlen(dest);
+    int lon2 = my_strlen(src);
+    while (lon1 + i <= lon1 + lon2) {
+        dest[lon1 + i] = src[i];
         i++;
     }
-    dest[len + i] = '\0';
+    dest[lon1 + i] = '\0';
     return (dest);
 }
