@@ -5,7 +5,7 @@
 ** lolil
 */
 
-int my_find_prime(int nb)
+int my_find_prime_sup(int nb)
 {
     return (0);
 }
