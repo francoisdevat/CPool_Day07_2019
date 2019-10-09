@@ -5,7 +5,7 @@
 ** loilil
 */
 
-int my_pu_nbr(int nb)
+int my_put_nbr(int nb)
 {
     return (0);
 }
