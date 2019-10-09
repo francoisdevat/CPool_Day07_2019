@@ -1,0 +1,31 @@
+/*
+** EPITECH PROJECT, 2019
+** coucou
+** File description:
+** je sais plus quoi ecrire
+*/
+
+char *my_strstr(char *str, char *to_find)
+{
+    int *b = 0;
+    int longueur = 0;
+    for (int i = 0; to_find[i] != '\0'; i++){
+        longueur++;
+        }
+    while (to_find[b] != '0') {
+        if (*str[b] = *to_find[b]) {
+            int str = str[b];
+            int a = b;
+            while (*str[a] = *to_find[a]) {
+                a++;
+            }
+            if (*str[longueur] = *str[a]) {
+                return (*str[b]);
+                } else {
+                b =0;
+            }
+        }
+        b++;;
+        return (0);
+    }
+}
