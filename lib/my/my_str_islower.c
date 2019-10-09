@@ -5,7 +5,7 @@
 ** lolil
 */
 
-int my_sttr_islower(char const *str)
+int my_str_islower(char const *str)
 {
     return (0);
 }
