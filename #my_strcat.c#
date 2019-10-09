@@ -1,0 +1,21 @@
+/*
+** EPITECH PROJECT, 2019
+** stract
+** File description:
+** je sais pas
+*/
+
+char*my_strcat(char *dest, char *src)
+{
+    int lon;
+    int i;
+
+    lon = my_strlen(dest);
+    i = 0;
+    while (src[i] =! '\0') {
+        dest[lon + i] = src[i];
+        i++;
+    }
+    dest[lon + i] = '\0';
+    return (dest);
+}
